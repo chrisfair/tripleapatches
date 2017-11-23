@@ -13579,16 +13579,16 @@ diff -Naur /home/christopher/testBuild/TripleA /home/christopher/TripleA/TripleA
 +
 +
 +exit $return_code
-diff -Naur /home/christopher/testBuild/TripleA-1.9.0.0.7594.desktop /home/christopher/TripleA/TripleA-1.9.0.0.7594.desktop
---- /home/christopher/testBuild/TripleA-1.9.0.0.7594.desktop	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/TripleA-1.9.0.0.7594.desktop	2017-11-22 22:12:09.081000000 -0700
+diff -Naur /home/christopher/testBuild/TripleA.desktop /home/christopher/TripleA/TripleA.desktop
+--- /home/christopher/testBuild/TripleA.desktop	1969-12-31 17:00:00.000000000 -0700
++++ /home/christopher/TripleA/TripleA.desktop	2017-11-22 22:35:24.405547120 -0700
 @@ -0,0 +1,7 @@
 +#!/usr/bin/env xdg-open
 +[Desktop Entry]
 +Type=Application
-+Name=TripleA-1.9.0.0.7594
-+Exec="/home/christopher/TripleA/TripleA"
-+Icon=/home/christopher/TripleA/.install4j/TripleA.png
++Name=TripleA
++Exec="/usr/share/triplea/TripleA"
++Icon=/usr/share/triplea/.install4j/TripleA.png
 +Categories=Game;
 diff -Naur /home/christopher/testBuild/TripleA.vmoptions /home/christopher/TripleA/TripleA.vmoptions
 --- /home/christopher/testBuild/TripleA.vmoptions	1969-12-31 17:00:00.000000000 -0700
