@@ -36,7 +36,7 @@ diff -Naur /home/christopher/testBuild/.install4j/ab9dd710.lprop /home/christoph
 +10117=22
 diff -Naur /home/christopher/testBuild/.install4j/autoUninstall.1 /home/christopher/TripleA/.install4j/autoUninstall.1
 --- /home/christopher/testBuild/.install4j/autoUninstall.1	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/autoUninstall.1	2017-11-22 19:45:10.611444631 -0700
++++ /home/christopher/TripleA/.install4j/autoUninstall.1	2017-11-22 22:12:12.622693509 -0700
 @@ -0,0 +1,4 @@
 +<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 +<autoUninstall>
@@ -44,8 +44,8 @@ diff -Naur /home/christopher/testBuild/.install4j/autoUninstall.1 /home/christop
 +</autoUninstall>
 diff -Naur /home/christopher/testBuild/.install4j/files.log /home/christopher/TripleA/.install4j/files.log
 --- /home/christopher/testBuild/.install4j/files.log	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/files.log	2017-11-22 19:45:10.641444561 -0700
-@@ -0,0 +1,1140 @@
++++ /home/christopher/TripleA/.install4j/files.log	2017-11-22 22:12:12.669360045 -0700
+@@ -0,0 +1,1142 @@
 +<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 +<fileLog>
 +<createdFiles>
@@ -251,6 +251,7 @@ diff -Naur /home/christopher/testBuild/.install4j/files.log /home/christopher/Tr
 +<entry name="assets/sounds/classical/required_your_turn_series/required_your_turn_series_01_middle_of_lotr_company_of_the_ring.mp3" shared="false" uninstallMode="0"/>
 +<entry name="assets/units/Japanese/harbour_hit.png" shared="false" uninstallMode="0"/>
 +<entry name=".install4j/user.jar" shared="false" uninstallMode="2"/>
++<entry name="/home/christopher/.local/share/applications/TripleA-1.9.0.0.7594-0.desktop" shared="false" uninstallMode="2"/>
 +<entry name="assets/units/Neutral/factory_hit.png" shared="false" uninstallMode="0"/>
 +<entry name="assets/units/Puppet_States/destroyer.png" shared="false" uninstallMode="0"/>
 +<entry name="assets/sounds/ww2/political_action_failure/political_action_failure_01_paper_being_ripped.mp3" shared="false" uninstallMode="0"/>
@@ -961,6 +962,7 @@ diff -Naur /home/christopher/testBuild/.install4j/files.log /home/christopher/Tr
 +<entry name="assets/flags/Romanians_small.png" shared="false" uninstallMode="0"/>
 +<entry name="assets/sounds/generic/click_button/click_button_01.mp3" shared="false" uninstallMode="0"/>
 +<entry name="assets/flags/Dutch_Neutral_large.png" shared="false" uninstallMode="0"/>
++<entry name="TripleA-1.9.0.0.7594.desktop" shared="false" uninstallMode="2"/>
 +<entry name="assets/units/Germans/harbour_hit.png" shared="false" uninstallMode="0"/>
 +<entry name="assets/resources/Nuclear_large.png" shared="false" uninstallMode="0"/>
 +<entry name="assets/units/Russians/rockets_old.png" shared="false" uninstallMode="0"/>
@@ -1188,7 +1190,7 @@ diff -Naur /home/christopher/testBuild/.install4j/files.log /home/christopher/Tr
 +</fileLog>
 diff -Naur /home/christopher/testBuild/.install4j/i4j_extf_0_1sxis30.utf8 /home/christopher/TripleA/.install4j/i4j_extf_0_1sxis30.utf8
 --- /home/christopher/testBuild/.install4j/i4j_extf_0_1sxis30.utf8	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/i4j_extf_0_1sxis30.utf8	2017-11-22 19:45:06.183000000 -0700
++++ /home/christopher/TripleA/.install4j/i4j_extf_0_1sxis30.utf8	2017-11-22 22:12:09.063000000 -0700
 @@ -0,0 +1,548 @@
 +SetupAppTitle=Setup
 +SetupWindowTitle=Setup - {0}
@@ -1740,7 +1742,7 @@ diff -Naur /home/christopher/testBuild/.install4j/i4j_extf_0_1sxis30.utf8 /home/
 +ButtonSelect=Select
 diff -Naur /home/christopher/testBuild/.install4j/i4j_extf_1_1sxis30_1r5xq07.png /home/christopher/TripleA/.install4j/i4j_extf_1_1sxis30_1r5xq07.png
 --- /home/christopher/testBuild/.install4j/i4j_extf_1_1sxis30_1r5xq07.png	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/i4j_extf_1_1sxis30_1r5xq07.png	2017-11-22 19:45:06.183000000 -0700
++++ /home/christopher/TripleA/.install4j/i4j_extf_1_1sxis30_1r5xq07.png	2017-11-22 22:12:09.063000000 -0700
 @@ -0,0 +1,6 @@
 +‰PNG
 +
@@ -1751,7 +1753,7 @@ diff -Naur /home/christopher/testBuild/.install4j/i4j_extf_1_1sxis30_1r5xq07.png
 \ No newline at end of file
 diff -Naur /home/christopher/testBuild/.install4j/i4j_extf_2_1sxis30_1e4h48z.png /home/christopher/TripleA/.install4j/i4j_extf_2_1sxis30_1e4h48z.png
 --- /home/christopher/testBuild/.install4j/i4j_extf_2_1sxis30_1e4h48z.png	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/i4j_extf_2_1sxis30_1e4h48z.png	2017-11-22 19:45:06.183000000 -0700
++++ /home/christopher/TripleA/.install4j/i4j_extf_2_1sxis30_1e4h48z.png	2017-11-22 22:12:09.063000000 -0700
 @@ -0,0 +1,7 @@
 +‰PNG
 +
@@ -1763,7 +1765,7 @@ diff -Naur /home/christopher/testBuild/.install4j/i4j_extf_2_1sxis30_1e4h48z.png
 \ No newline at end of file
 diff -Naur /home/christopher/testBuild/.install4j/i4j_extf_3_1sxis30_tdx38l.png /home/christopher/TripleA/.install4j/i4j_extf_3_1sxis30_tdx38l.png
 --- /home/christopher/testBuild/.install4j/i4j_extf_3_1sxis30_tdx38l.png	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/i4j_extf_3_1sxis30_tdx38l.png	2017-11-22 19:45:06.183000000 -0700
++++ /home/christopher/TripleA/.install4j/i4j_extf_3_1sxis30_tdx38l.png	2017-11-22 22:12:09.063000000 -0700
 @@ -0,0 +1,29 @@
 +‰PNG
 +
@@ -1797,7 +1799,7 @@ diff -Naur /home/christopher/testBuild/.install4j/i4j_extf_3_1sxis30_tdx38l.png 
 \ No newline at end of file
 diff -Naur /home/christopher/testBuild/.install4j/i4j_extf_4_1sxis30_1wwgbbl.png /home/christopher/TripleA/.install4j/i4j_extf_4_1sxis30_1wwgbbl.png
 --- /home/christopher/testBuild/.install4j/i4j_extf_4_1sxis30_1wwgbbl.png	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/i4j_extf_4_1sxis30_1wwgbbl.png	2017-11-22 19:45:06.183000000 -0700
++++ /home/christopher/TripleA/.install4j/i4j_extf_4_1sxis30_1wwgbbl.png	2017-11-22 22:12:09.063000000 -0700
 @@ -0,0 +1,28 @@
 +‰PNG
 +
@@ -1830,7 +1832,7 @@ diff -Naur /home/christopher/testBuild/.install4j/i4j_extf_4_1sxis30_1wwgbbl.png
 \ No newline at end of file
 diff -Naur /home/christopher/testBuild/.install4j/i4j_extf_5_1sxis30_1vuodf0.png /home/christopher/TripleA/.install4j/i4j_extf_5_1sxis30_1vuodf0.png
 --- /home/christopher/testBuild/.install4j/i4j_extf_5_1sxis30_1vuodf0.png	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/i4j_extf_5_1sxis30_1vuodf0.png	2017-11-22 19:45:06.183000000 -0700
++++ /home/christopher/TripleA/.install4j/i4j_extf_5_1sxis30_1vuodf0.png	2017-11-22 22:12:09.063000000 -0700
 @@ -0,0 +1,41 @@
 +‰PNG
 +
@@ -1876,7 +1878,7 @@ diff -Naur /home/christopher/testBuild/.install4j/i4j_extf_5_1sxis30_1vuodf0.png
 \ No newline at end of file
 diff -Naur /home/christopher/testBuild/.install4j/i4j_extf_6_1sxis30_8of556.png /home/christopher/TripleA/.install4j/i4j_extf_6_1sxis30_8of556.png
 --- /home/christopher/testBuild/.install4j/i4j_extf_6_1sxis30_8of556.png	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/i4j_extf_6_1sxis30_8of556.png	2017-11-22 19:45:06.183000000 -0700
++++ /home/christopher/TripleA/.install4j/i4j_extf_6_1sxis30_8of556.png	2017-11-22 22:12:09.063000000 -0700
 @@ -0,0 +1,140 @@
 +‰PNG
 +
@@ -2021,7 +2023,7 @@ diff -Naur /home/christopher/testBuild/.install4j/i4j_extf_6_1sxis30_8of556.png 
 \ No newline at end of file
 diff -Naur /home/christopher/testBuild/.install4j/i4j_extf_7_1sxis30_18gg8kx@2x.png /home/christopher/TripleA/.install4j/i4j_extf_7_1sxis30_18gg8kx@2x.png
 --- /home/christopher/testBuild/.install4j/i4j_extf_7_1sxis30_18gg8kx@2x.png	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/i4j_extf_7_1sxis30_18gg8kx@2x.png	2017-11-22 19:45:06.183000000 -0700
++++ /home/christopher/TripleA/.install4j/i4j_extf_7_1sxis30_18gg8kx@2x.png	2017-11-22 22:12:09.063000000 -0700
 @@ -0,0 +1,32 @@
 +‰PNG
 +
@@ -2058,7 +2060,7 @@ diff -Naur /home/christopher/testBuild/.install4j/i4j_extf_7_1sxis30_18gg8kx@2x.
 \ No newline at end of file
 diff -Naur /home/christopher/testBuild/.install4j/i4j_extf_7_1sxis30_18gg8kx.png /home/christopher/TripleA/.install4j/i4j_extf_7_1sxis30_18gg8kx.png
 --- /home/christopher/testBuild/.install4j/i4j_extf_7_1sxis30_18gg8kx.png	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/i4j_extf_7_1sxis30_18gg8kx.png	2017-11-22 19:45:06.183000000 -0700
++++ /home/christopher/TripleA/.install4j/i4j_extf_7_1sxis30_18gg8kx.png	2017-11-22 22:12:09.063000000 -0700
 @@ -0,0 +1,28 @@
 +‰PNG
 +
@@ -2091,7 +2093,7 @@ diff -Naur /home/christopher/testBuild/.install4j/i4j_extf_7_1sxis30_18gg8kx.png
 \ No newline at end of file
 diff -Naur /home/christopher/testBuild/.install4j/i4jparams.conf /home/christopher/TripleA/.install4j/i4jparams.conf
 --- /home/christopher/testBuild/.install4j/i4jparams.conf	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/i4jparams.conf	2017-11-22 19:45:06.183000000 -0700
++++ /home/christopher/TripleA/.install4j/i4jparams.conf	2017-11-22 22:12:09.063000000 -0700
 @@ -0,0 +1,2454 @@
 +<?xml version="1.0" encoding="UTF-8"?>
 +<config install4jVersion="7.0.1" install4jBuild="7043" type="unix" archive="false" bitness="undefined">
@@ -4549,7 +4551,7 @@ diff -Naur /home/christopher/testBuild/.install4j/i4jparams.conf /home/christoph
 +</config>
 diff -Naur /home/christopher/testBuild/.install4j/i4jruntime.jar /home/christopher/TripleA/.install4j/i4jruntime.jar
 --- /home/christopher/testBuild/.install4j/i4jruntime.jar	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/i4jruntime.jar	2017-11-22 19:45:06.183000000 -0700
++++ /home/christopher/TripleA/.install4j/i4jruntime.jar	2017-11-22 22:12:09.063000000 -0700
 @@ -0,0 +1,6196 @@
 +PK
 +    ‰hóJ            	  META-INF/UT ÒXoYþÊ  PK   ‰hóJ²î       	 META-INF/MANIFEST.MFUT ÒXoYóMÌËLK-.ÑK-*ÎÌÏ³R0Ô3àåâå PK
@@ -10750,9 +10752,9 @@ diff -Naur /home/christopher/testBuild/.install4j/i4jruntime.jar /home/christoph
 \ No newline at end of file
 diff -Naur /home/christopher/testBuild/.install4j/installation.log /home/christopher/TripleA/.install4j/installation.log
 --- /home/christopher/testBuild/.install4j/installation.log	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/installation.log	2017-11-22 19:45:10.654777863 -0700
-@@ -0,0 +1,1173 @@
-+[INFO] logger started at Wed Nov 22 19:44:50 MST 2017
++++ /home/christopher/TripleA/.install4j/installation.log	2017-11-22 22:12:22.589332459 -0700
+@@ -0,0 +1,1198 @@
++[INFO] logger started at Wed Nov 22 22:11:51 MST 2017
 +[INFO] executable name: /home/christopher/Downloads/TripleA_1.9.0.0.7594_unix.sh
 +[INFO] install4j version: 7.0.1 (build 7043)
 +[INFO] Properties: 
@@ -10846,11 +10848,11 @@ diff -Naur /home/christopher/testBuild/.install4j/installation.log /home/christo
 +       Property registerForResponseFile: true
 +       Property rollbackSupported: true
 +       Response file /home/christopher/TripleA/.install4j/response.varfile does not exist
-+       Execute action successful after 2 ms
++       Execute action successful after 1 ms
 +[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: command: move 1 screens, executing actions, checking condition
 +[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: Show screen
 +       Variable changed: sys.symlinkDir=/usr/local/bin[class java.lang.String]
-+       Variable changed: sys.programGroupDisabled=true[class java.lang.Boolean]
++       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
 +[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: command: move 1 screens, executing actions, checking condition
 +[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
 +[INFO] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 96]: Execute action
@@ -10865,7 +10867,7 @@ diff -Naur /home/christopher/testBuild/.install4j/installation.log /home/christo
 +       previous installation id at /home/christopher/TripleA: null
 +       no previous installation detected, uninstaller was not started
 +       finished
-+       Execute action successful after 2 ms
++       Execute action successful after 3 ms
 +[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
 +       Property directoryResolverScript: null
 +       Property fileFilterScript: null
@@ -11857,9 +11859,9 @@ diff -Naur /home/christopher/testBuild/.install4j/installation.log /home/christo
 +       File options set to: [fileTime: Tue Nov 21 15:07:42 MST 2017, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
 +       File times: 1511302062000, 1511302062000
 +       Install file: /home/christopher/TripleA/.install4j/inst_jre.cfg; size: 28 bytes; exists: false
-+       File options set to: [fileTime: Wed Nov 22 19:45:06 MST 2017, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
++       File options set to: [fileTime: Wed Nov 22 22:12:09 MST 2017, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
 +       Install file: /home/christopher/TripleA/.install4j/i4jruntime.jar; size: 1680602 bytes; exists: false
-+       File options set to: [fileTime: Wed Nov 22 19:45:06 MST 2017, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
++       File options set to: [fileTime: Wed Nov 22 22:12:09 MST 2017, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
 +       Install file: /home/christopher/TripleA/.install4j/MessagesDefault; size: 33668 bytes; exists: false
 +       Install file: /home/christopher/TripleA/.install4j/i4jparams.conf; size: 198747 bytes; exists: false
 +       Install file: /home/christopher/TripleA/.install4j/stats.properties; size: 5321 bytes; exists: false
@@ -11873,7 +11875,27 @@ diff -Naur /home/christopher/testBuild/.install4j/installation.log /home/christo
 +       Install file: /home/christopher/TripleA/.install4j/i4j_extf_6_1sxis30_8of556.png; size: 37150 bytes; exists: false
 +       Install file: /home/christopher/TripleA/.install4j/i4j_extf_7_1sxis30_18gg8kx@2x.png; size: 15419 bytes; exists: false
 +       Install file: /home/christopher/TripleA/.install4j/i4j_extf_0_1sxis30.utf8; size: 33668 bytes; exists: false
-+       Execute action successful after 6474 ms
++       Execute action successful after 6560 ms
++[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action
++       Property categories: Game
++       Property linkDirectory: /usr/local/bin
++       Property programGroupEntryConfigs: []
++       Property programGroupName: 
++       Property uninstallerMenuName: TripleA Uninstaller
++       Property addDefaultLauncherLinks: true
++       Property addUninstaller: true
++       Property allUsers: true
++       Property failForSymlinksNotCreated: false
++       Property rollbackSupported: true
++       Property unixMenuEntries: true
++       Property unixSymlinks: true
++       Variable changed: sys.programGroupName=TripleA[class java.lang.String]
++       Install file: /home/christopher/TripleA/TripleA-1.9.0.0.7594.desktop; size: 195 bytes; exists: false
++       File options set to: [fileTime: Wed Nov 22 22:12:09 MST 2017, mode: 755, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
++       Install file: /home/christopher/.local/share/applications/TripleA-1.9.0.0.7594-0.desktop; size: 195 bytes; exists: false
++       File options set to: [fileTime: Wed Nov 22 22:12:09 MST 2017, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
++[ERROR] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: /usr/local/bin/TripleA
++[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action successful after 17 ms
 +[INFO] com.install4j.runtime.beans.actions.registry.SetRegistryValueAction [ID 172]: Execute action
 +       Property keyName: Software\Classes\triplea
 +       Property registryRoot: HKEY_CURRENT_USER
@@ -11881,7 +11903,7 @@ diff -Naur /home/christopher/testBuild/.install4j/installation.log /home/christo
 +       Property valueName: 
 +       Property createKey: true
 +       Property rollbackSupported: true
-+       Execute action successful after 1 ms
++       Execute action successful after 2 ms
 +[INFO] com.install4j.runtime.beans.actions.registry.SetRegistryValueAction [ID 175]: Execute action
 +       Property keyName: Software\Classes\triplea
 +       Property registryRoot: HKEY_CURRENT_USER
@@ -11897,7 +11919,7 @@ diff -Naur /home/christopher/testBuild/.install4j/installation.log /home/christo
 +       Property valueName: 
 +       Property createKey: true
 +       Property rollbackSupported: true
-+       Execute action successful after 0 ms
++       Execute action successful after 1 ms
 +[INFO] com.install4j.runtime.beans.actions.registry.SetRegistryValueAction [ID 178]: Execute action
 +       Property keyName: Software\Classes\triplea\shell\open\command
 +       Property registryRoot: HKEY_CURRENT_USER
@@ -11910,7 +11932,7 @@ diff -Naur /home/christopher/testBuild/.install4j/installation.log /home/christo
 +       Property rollbackScript: null
 +       Property script: com.install4j.script.I4jScript_Internal_57
 +       Property rollbackSupported: false
-+       Execute action successful after 1 ms
++       Execute action successful after 9 ms
 +[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
 +       Property icon: null
 +       Property iconSource: Installer icon
@@ -11921,26 +11943,31 @@ diff -Naur /home/christopher/testBuild/.install4j/installation.log /home/christo
 +[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Rollback barrier reached
 +       command: move 1 screens, executing actions, checking condition
 +[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: Show screen
-+       Variable changed: executeLauncherAction=false[class java.lang.Boolean]
++       Variable changed: executeLauncherAction=true[class java.lang.Boolean]
++[INFO] com.install4j.runtime.beans.actions.finish.ExecuteLauncherAction [ID 135]: Execute action
++       Property arguments: null
++       Property launcherId: 33
++       Property rollbackSupported: false
++       Execute action successful after 507 ms
 +[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: command: finish
 +       cleaning up
 +       Finished
 diff -Naur /home/christopher/testBuild/.install4j/install.prop /home/christopher/TripleA/.install4j/install.prop
 --- /home/christopher/testBuild/.install4j/install.prop	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/install.prop	2017-11-22 19:45:10.611444631 -0700
++++ /home/christopher/TripleA/.install4j/install.prop	2017-11-22 22:12:12.622693509 -0700
 @@ -0,0 +1,4 @@
 +#
-+#Wed Nov 22 19:45:10 MST 2017
++#Wed Nov 22 22:12:12 MST 2017
 +launcher0=/home/christopher/TripleA/TripleA
 +languageId=en
 diff -Naur /home/christopher/testBuild/.install4j/inst_jre.cfg /home/christopher/TripleA/.install4j/inst_jre.cfg
 --- /home/christopher/testBuild/.install4j/inst_jre.cfg	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/inst_jre.cfg	2017-11-22 19:45:06.183000000 -0700
++++ /home/christopher/TripleA/.install4j/inst_jre.cfg	2017-11-22 22:12:09.062000000 -0700
 @@ -0,0 +1 @@
 +/usr/lib/jvm/java-8-jdk/jre
 diff -Naur /home/christopher/testBuild/.install4j/MessagesDefault /home/christopher/TripleA/.install4j/MessagesDefault
 --- /home/christopher/testBuild/.install4j/MessagesDefault	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/MessagesDefault	2017-11-22 19:45:06.183000000 -0700
++++ /home/christopher/TripleA/.install4j/MessagesDefault	2017-11-22 22:12:09.063000000 -0700
 @@ -0,0 +1,548 @@
 +SetupAppTitle=Setup
 +SetupWindowTitle=Setup - {0}
@@ -12492,14 +12519,14 @@ diff -Naur /home/christopher/testBuild/.install4j/MessagesDefault /home/christop
 +ButtonSelect=Select
 diff -Naur /home/christopher/testBuild/.install4j/response.varfile /home/christopher/TripleA/.install4j/response.varfile
 --- /home/christopher/testBuild/.install4j/response.varfile	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/response.varfile	2017-11-22 19:45:10.611444631 -0700
++++ /home/christopher/TripleA/.install4j/response.varfile	2017-11-22 22:12:12.622693509 -0700
 @@ -0,0 +1,7 @@
 +# install4j response file for TripleA 1.9.0.0.7594
-+executeLauncherAction$Boolean=false
++executeLauncherAction$Boolean=true
 +sys.adminRights$Boolean=false
 +sys.installationDir=/home/christopher/TripleA
 +sys.languageId=en
-+sys.programGroupDisabled$Boolean=true
++sys.programGroupDisabled$Boolean=false
 +sys.symlinkDir=/usr/local/bin
 diff -Naur /home/christopher/testBuild/.install4j/s_8of556.png /home/christopher/TripleA/.install4j/s_8of556.png
 --- /home/christopher/testBuild/.install4j/s_8of556.png	1969-12-31 17:00:00.000000000 -0700
@@ -12648,7 +12675,7 @@ diff -Naur /home/christopher/testBuild/.install4j/s_8of556.png /home/christopher
 \ No newline at end of file
 diff -Naur /home/christopher/testBuild/.install4j/stats.properties /home/christopher/TripleA/.install4j/stats.properties
 --- /home/christopher/testBuild/.install4j/stats.properties	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/stats.properties	2017-11-22 19:45:06.183000000 -0700
++++ /home/christopher/TripleA/.install4j/stats.properties	2017-11-22 22:12:09.063000000 -0700
 @@ -0,0 +1,10 @@
 +#install4j content files
 +#Tue Nov 21 22:08:57 UTC 2017
@@ -12952,7 +12979,7 @@ diff -Naur /home/christopher/testBuild/.install4j/uninstall.png /home/christophe
 \ No newline at end of file
 diff -Naur /home/christopher/testBuild/.install4j/user.jar /home/christopher/TripleA/.install4j/user.jar
 --- /home/christopher/testBuild/.install4j/user.jar	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/.install4j/user.jar	2017-11-22 19:45:06.183000000 -0700
++++ /home/christopher/TripleA/.install4j/user.jar	2017-11-22 22:12:09.063000000 -0700
 @@ -0,0 +1,133 @@
 +PK
 +    	±uK               com/PK
@@ -13552,499 +13579,20 @@ diff -Naur /home/christopher/testBuild/TripleA /home/christopher/TripleA/TripleA
 +
 +
 +exit $return_code
+diff -Naur /home/christopher/testBuild/TripleA-1.9.0.0.7594.desktop /home/christopher/TripleA/TripleA-1.9.0.0.7594.desktop
+--- /home/christopher/testBuild/TripleA-1.9.0.0.7594.desktop	1969-12-31 17:00:00.000000000 -0700
++++ /home/christopher/TripleA/TripleA-1.9.0.0.7594.desktop	2017-11-22 22:12:09.081000000 -0700
+@@ -0,0 +1,7 @@
++#!/usr/bin/env xdg-open
++[Desktop Entry]
++Type=Application
++Name=TripleA-1.9.0.0.7594
++Exec="/home/christopher/TripleA/TripleA"
++Icon=/home/christopher/TripleA/.install4j/TripleA.png
++Categories=Game;
 diff -Naur /home/christopher/testBuild/TripleA.vmoptions /home/christopher/TripleA/TripleA.vmoptions
 --- /home/christopher/testBuild/TripleA.vmoptions	1969-12-31 17:00:00.000000000 -0700
 +++ /home/christopher/TripleA/TripleA.vmoptions	2017-11-21 15:07:42.000000000 -0700
 @@ -0,0 +1,2 @@
 +-Xmx1G
 +-Xms1G
-diff -Naur /home/christopher/testBuild/uninstall /home/christopher/TripleA/uninstall
---- /home/christopher/testBuild/uninstall	1969-12-31 17:00:00.000000000 -0700
-+++ /home/christopher/TripleA/uninstall	2017-11-21 15:07:42.000000000 -0700
-@@ -0,0 +1,486 @@
-+#!/bin/sh
-+
-+# Uncomment the following line to override the JVM search sequence
-+# INSTALL4J_JAVA_HOME_OVERRIDE=
-+# Uncomment the following line to add additional VM parameters
-+# INSTALL4J_ADD_VM_PARAMS=
-+
-+
-+INSTALL4J_JAVA_PREFIX=""
-+GREP_OPTIONS=""
-+
-+fill_version_numbers() {
-+  if [ "$ver_major" = "" ]; then
-+    ver_major=0
-+  fi
-+  if [ "$ver_minor" = "" ]; then
-+    ver_minor=0
-+  fi
-+  if [ "$ver_micro" = "" ]; then
-+    ver_micro=0
-+  fi
-+  if [ "$ver_patch" = "" ]; then
-+    ver_patch=0
-+  fi
-+}
-+
-+read_db_entry() {
-+  if [ -n "$INSTALL4J_NO_DB" ]; then
-+    return 1
-+  fi
-+  if [ ! -f "$db_file" ]; then
-+    return 1
-+  fi
-+  if [ ! -x "$java_exc" ]; then
-+    return 1
-+  fi
-+  found=1
-+  exec 7< $db_file
-+  while read r_type r_dir r_ver_major r_ver_minor r_ver_micro r_ver_patch r_ver_vendor<&7; do
-+    if [ "$r_type" = "JRE_VERSION" ]; then
-+      if [ "$r_dir" = "$test_dir" ]; then
-+        ver_major=$r_ver_major
-+        ver_minor=$r_ver_minor
-+        ver_micro=$r_ver_micro
-+        ver_patch=$r_ver_patch
-+        fill_version_numbers
-+      fi
-+    elif [ "$r_type" = "JRE_INFO" ]; then
-+      if [ "$r_dir" = "$test_dir" ]; then
-+        is_openjdk=$r_ver_major
-+        if [ "W$r_ver_minor" = "W$modification_date" ]; then
-+          found=0
-+          break
-+        fi
-+      fi
-+    fi
-+  done
-+  exec 7<&-
-+
-+  return $found
-+}
-+
-+create_db_entry() {
-+  tested_jvm=true
-+  version_output=`"$bin_dir/java" $1 -version 2>&1`
-+  is_gcj=`expr "$version_output" : '.*gcj'`
-+  is_openjdk=`expr "$version_output" : '.*OpenJDK'`
-+  if [ "$is_gcj" = "0" ]; then
-+    java_version=`expr "$version_output" : '.*"\(.*\)".*'`
-+    ver_major=`expr "$java_version" : '\([0-9][0-9]*\).*'`
-+    ver_minor=`expr "$java_version" : '[0-9][0-9]*\.\([0-9][0-9]*\).*'`
-+    ver_micro=`expr "$java_version" : '[0-9][0-9]*\.[0-9][0-9]*\.\([0-9][0-9]*\).*'`
-+    ver_patch=`expr "$java_version" : '[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*[\._]\([0-9][0-9]*\).*'`
-+  fi
-+  fill_version_numbers
-+  if [ -n "$INSTALL4J_NO_DB" ]; then
-+    return
-+  fi
-+  db_new_file=${db_file}_new
-+  if [ -f "$db_file" ]; then
-+    awk '$2 != "'"$test_dir"'" {print $0}' $db_file > $db_new_file
-+    rm "$db_file"
-+    mv "$db_new_file" "$db_file"
-+  fi
-+  dir_escaped=`echo "$test_dir" | sed -e 's/ /\\\\ /g'`
-+  echo "JRE_VERSION	$dir_escaped	$ver_major	$ver_minor	$ver_micro	$ver_patch" >> $db_file
-+  echo "JRE_INFO	$dir_escaped	$is_openjdk	$modification_date" >> $db_file
-+  chmod g+w $db_file
-+}
-+
-+check_date_output() {
-+  if [ -n "$date_output" -a $date_output -eq $date_output 2> /dev/null ]; then
-+    modification_date=$date_output
-+  fi
-+}
-+
-+test_jvm() {
-+  tested_jvm=na
-+  test_dir=$1
-+  bin_dir=$test_dir/bin
-+  java_exc=$bin_dir/java
-+  if [ -z "$test_dir" ] || [ ! -d "$bin_dir" ] || [ ! -f "$java_exc" ] || [ ! -x "$java_exc" ]; then
-+    return
-+  fi
-+
-+  modification_date=0
-+  date_output=`date -r "$java_exc" "+%s" 2>/dev/null`
-+  if [ $? -eq 0 ]; then
-+    check_date_output
-+  fi
-+  if [ $modification_date -eq 0 ]; then
-+    stat_path=`which stat 2> /dev/null`
-+    if [ -f "$stat_path" ]; then
-+      date_output=`stat -f "%m" "$java_exc" 2>/dev/null`
-+      if [ $? -eq 0 ]; then
-+        check_date_output
-+      fi
-+      if [ $modification_date -eq 0 ]; then
-+        date_output=`stat -c "%Y" "$java_exc" 2>/dev/null`
-+        if [ $? -eq 0 ]; then
-+          check_date_output
-+        fi
-+      fi
-+    fi
-+  fi
-+
-+  tested_jvm=false
-+  read_db_entry || create_db_entry $2
-+
-+  if [ "$ver_major" = "" ]; then
-+    return;
-+  fi
-+  if [ "$ver_major" -lt "1" ]; then
-+    return;
-+  elif [ "$ver_major" -eq "1" ]; then
-+    if [ "$ver_minor" -lt "8" ]; then
-+      return;
-+    fi
-+  fi
-+
-+  if [ "$ver_major" = "" ]; then
-+    return;
-+  fi
-+  if [ "$ver_major" -gt "1" ]; then
-+    return;
-+  elif [ "$ver_major" -eq "1" ]; then
-+    if [ "$ver_minor" -gt "8" ]; then
-+      return;
-+    fi
-+  fi
-+
-+  app_java_home=$test_dir
-+}
-+
-+add_class_path() {
-+  if [ -n "$1" ] && [ `expr "$1" : '.*\*'` -eq "0" ]; then
-+    local_classpath="$local_classpath${local_classpath:+:}$1"
-+  fi
-+}
-+
-+
-+read_vmoptions() {
-+  vmoptions_file=`eval echo "$1" 2>/dev/null`
-+  if [ ! -r "$vmoptions_file" ]; then
-+    vmoptions_file="$prg_dir/$vmoptions_file"
-+  fi
-+  if [ -r "$vmoptions_file" ] && [ -f "$vmoptions_file" ]; then
-+    exec 8< "$vmoptions_file"
-+    while read cur_option<&8; do
-+      is_comment=`expr "W$cur_option" : 'W *#.*'`
-+      if [ "$is_comment" = "0" ]; then 
-+        vmo_classpath=`expr "W$cur_option" : 'W *-classpath \(.*\)'`
-+        vmo_classpath_a=`expr "W$cur_option" : 'W *-classpath/a \(.*\)'`
-+        vmo_classpath_p=`expr "W$cur_option" : 'W *-classpath/p \(.*\)'`
-+        vmo_include=`expr "W$cur_option" : 'W *-include-options \(.*\)'`
-+        if [ ! "W$vmo_include" = "W" ]; then
-+            if [ "W$vmo_include_1" = "W" ]; then
-+              vmo_include_1="$vmo_include"
-+            elif [ "W$vmo_include_2" = "W" ]; then
-+              vmo_include_2="$vmo_include"
-+            elif [ "W$vmo_include_3" = "W" ]; then
-+              vmo_include_3="$vmo_include"
-+            fi
-+        fi
-+        if [ ! "$vmo_classpath" = "" ]; then
-+          local_classpath="$i4j_classpath:$vmo_classpath"
-+        elif [ ! "$vmo_classpath_a" = "" ]; then
-+          local_classpath="${local_classpath}:${vmo_classpath_a}"
-+        elif [ ! "$vmo_classpath_p" = "" ]; then
-+          local_classpath="${vmo_classpath_p}:${local_classpath}"
-+        elif [ "W$vmo_include" = "W" ]; then
-+          needs_quotes=`expr "W$cur_option" : 'W.* .*'`
-+          if [ "$needs_quotes" = "0" ]; then 
-+            vmoptions_val="$vmoptions_val $cur_option"
-+          else
-+            if [ "W$vmov_1" = "W" ]; then
-+              vmov_1="$cur_option"
-+            elif [ "W$vmov_2" = "W" ]; then
-+              vmov_2="$cur_option"
-+            elif [ "W$vmov_3" = "W" ]; then
-+              vmov_3="$cur_option"
-+            elif [ "W$vmov_4" = "W" ]; then
-+              vmov_4="$cur_option"
-+            elif [ "W$vmov_5" = "W" ]; then
-+              vmov_5="$cur_option"
-+            fi
-+          fi
-+        fi
-+      fi
-+    done
-+    exec 8<&-
-+    if [ ! "W$vmo_include_1" = "W" ]; then
-+      vmo_include="$vmo_include_1"
-+      unset vmo_include_1
-+      read_vmoptions "$vmo_include"
-+    fi
-+    if [ ! "W$vmo_include_2" = "W" ]; then
-+      vmo_include="$vmo_include_2"
-+      unset vmo_include_2
-+      read_vmoptions "$vmo_include"
-+    fi
-+    if [ ! "W$vmo_include_3" = "W" ]; then
-+      vmo_include="$vmo_include_3"
-+      unset vmo_include_3
-+      read_vmoptions "$vmo_include"
-+    fi
-+  fi
-+}
-+
-+
-+unpack_file() {
-+  if [ -f "$1" ]; then
-+    jar_file=`echo "$1" | awk '{ print substr($0,1,length-5) }'`
-+    bin/unpack200 -r "$1" "$jar_file"
-+
-+    if [ $? -ne 0 ]; then
-+      echo "Error unpacking jar files. The architecture or bitness (32/64)"
-+      echo "of the bundled JVM might not match your machine."
-+      echo "You might also need administrative privileges for this operation."
-+      exit 1
-+    fi
-+  fi
-+}
-+
-+run_unpack200() {
-+  if [ -d "$1/lib" ]; then
-+    old_pwd200=`pwd`
-+    cd "$1"
-+    for pack_file in lib/*.jar.pack
-+    do
-+      unpack_file $pack_file
-+    done
-+    for pack_file in lib/ext/*.jar.pack
-+    do
-+      unpack_file $pack_file
-+    done
-+    cd "$old_pwd200"
-+  fi
-+}
-+
-+search_jre() {
-+if [ -z "$app_java_home" ]; then
-+  test_jvm "$INSTALL4J_JAVA_HOME_OVERRIDE"
-+fi
-+
-+if [ -z "$app_java_home" ]; then
-+if [ -f "$app_home/.install4j/pref_jre.cfg" ]; then
-+    read file_jvm_home < "$app_home/.install4j/pref_jre.cfg"
-+    test_jvm "$file_jvm_home"
-+    if [ -z "$app_java_home" ] && [ $tested_jvm = "false" ]; then
-+if [ -f "$db_file" ]; then
-+  rm "$db_file" 2> /dev/null
-+fi
-+        test_jvm "$file_jvm_home"
-+    fi
-+fi
-+fi
-+
-+if [ -z "$app_java_home" ]; then
-+  test_jvm "$app_home/jre" 
-+  if [ -z "$app_java_home" ] && [ $tested_jvm = "false" ]; then
-+if [ -f "$db_file" ]; then
-+  rm "$db_file" 2> /dev/null
-+fi
-+    test_jvm "$app_home/jre"
-+  fi
-+fi
-+
-+if [ -z "$app_java_home" ]; then
-+  prg_jvm=`which java 2> /dev/null`
-+  if [ ! -z "$prg_jvm" ] && [ -f "$prg_jvm" ]; then
-+    old_pwd_jvm=`pwd`
-+    path_java_bin=`dirname "$prg_jvm"`
-+    cd "$path_java_bin"
-+    prg_jvm=java
-+
-+    while [ -h "$prg_jvm" ] ; do
-+      ls=`ls -ld "$prg_jvm"`
-+      link=`expr "$ls" : '.*-> \(.*\)$'`
-+      if expr "$link" : '.*/.*' > /dev/null; then
-+        prg_jvm="$link"
-+      else
-+        prg_jvm="`dirname $prg_jvm`/$link"
-+      fi
-+    done
-+    path_java_bin=`dirname "$prg_jvm"`
-+    cd "$path_java_bin"
-+    cd ..
-+    path_java_home=`pwd`
-+    cd "$old_pwd_jvm"
-+    test_jvm "$path_java_home"
-+  fi
-+fi
-+
-+
-+if [ -z "$app_java_home" ]; then
-+  common_jvm_locations="/opt/i4j_jres/* /usr/local/i4j_jres/* $HOME/.i4j_jres/* /usr/bin/java* /usr/bin/jdk* /usr/bin/jre* /usr/bin/j2*re* /usr/bin/j2sdk* /usr/java* /usr/java*/jre /usr/jdk* /usr/jre* /usr/j2*re* /usr/j2sdk* /usr/java/j2*re* /usr/java/j2sdk* /opt/java* /usr/java/jdk* /usr/java/jre* /usr/lib/java/jre /usr/local/java* /usr/local/jdk* /usr/local/jre* /usr/local/j2*re* /usr/local/j2sdk* /usr/jdk/java* /usr/jdk/jdk* /usr/jdk/jre* /usr/jdk/j2*re* /usr/jdk/j2sdk* /usr/lib/jvm/* /usr/lib/java* /usr/lib/jdk* /usr/lib/jre* /usr/lib/j2*re* /usr/lib/j2sdk* /System/Library/Frameworks/JavaVM.framework/Versions/1.?/Home /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home /Library/Java/JavaVirtualMachines/*.jdk/Contents/Home/jre /Library/Java/JavaVirtualMachines/*.jre/Contents/Home /Library/Java/JavaVirtualMachines/*.jdk/Contents/Home"
-+  for current_location in $common_jvm_locations
-+  do
-+if [ -z "$app_java_home" ]; then
-+  test_jvm "$current_location"
-+fi
-+
-+  done
-+fi
-+
-+if [ -z "$app_java_home" ]; then
-+  test_jvm "$JAVA_HOME"
-+fi
-+
-+if [ -z "$app_java_home" ]; then
-+  test_jvm "$JDK_HOME"
-+fi
-+
-+if [ -z "$app_java_home" ]; then
-+  test_jvm "$INSTALL4J_JAVA_HOME"
-+fi
-+
-+if [ -z "$app_java_home" ]; then
-+if [ -f "$app_home/.install4j/inst_jre.cfg" ]; then
-+    read file_jvm_home < "$app_home/.install4j/inst_jre.cfg"
-+    test_jvm "$file_jvm_home"
-+    if [ -z "$app_java_home" ] && [ $tested_jvm = "false" ]; then
-+if [ -f "$db_file" ]; then
-+  rm "$db_file" 2> /dev/null
-+fi
-+        test_jvm "$file_jvm_home"
-+    fi
-+fi
-+fi
-+
-+}
-+
-+old_pwd=`pwd`
-+
-+progname=`basename "$0"`
-+linkdir=`dirname "$0"`
-+
-+cd "$linkdir"
-+prg="$progname"
-+
-+while [ -h "$prg" ] ; do
-+  ls=`ls -ld "$prg"`
-+  link=`expr "$ls" : '.*-> \(.*\)$'`
-+  if expr "$link" : '.*/.*' > /dev/null; then
-+    prg="$link"
-+  else
-+    prg="`dirname $prg`/$link"
-+  fi
-+done
-+
-+prg_dir=`dirname "$prg"`
-+progname=`basename "$prg"`
-+cd "$prg_dir"
-+prg_dir=`pwd`
-+app_home=.
-+cd "$app_home"
-+app_home=`pwd`
-+bundled_jre_home="$app_home/jre"
-+
-+if [ "__i4j_lang_restart" = "$1" ]; then
-+  cd "$old_pwd"
-+else
-+cd "$prg_dir"/..
-+
-+fi
-+if [ "__i4j_extract_and_exit" = "$1" ]; then
-+  cd "$old_pwd"
-+  exit 0
-+fi
-+db_home=$HOME
-+db_file_suffix=
-+if [ ! -w "$db_home" ]; then
-+  db_home=/tmp
-+  db_file_suffix=_$USER
-+fi
-+db_file=$db_home/.install4j$db_file_suffix
-+if [ -d "$db_file" ] || ([ -f "$db_file" ] && [ ! -r "$db_file" ]) || ([ -f "$db_file" ] && [ ! -w "$db_file" ]); then
-+  db_file=$db_home/.install4j_jre$db_file_suffix
-+fi
-+search_jre
-+if [ -z "$app_java_home" ]; then
-+if [ -f "$db_file" ]; then
-+  rm "$db_file" 2> /dev/null
-+fi
-+  search_jre
-+fi
-+if [ -z "$app_java_home" ]; then
-+if [ ! "__i4j_lang_restart" = "$1" ]; then
-+run_unpack200 "$bundled_jre_home"
-+run_unpack200 "$bundled_jre_home/jre"
-+fi
-+fi
-+
-+if [ -z "$app_java_home" ]; then
-+  echo No suitable Java Virtual Machine could be found on your system.
-+  echo The version of the JVM must be 1.8.
-+  echo Please define INSTALL4J_JAVA_HOME to point to a suitable JVM.
-+  exit 83
-+fi
-+
-+
-+i4j_classpath="$app_home/.install4j/i4jruntime.jar"
-+local_classpath=""
-+add_class_path "$i4j_classpath"
-+
-+vmoptions_val=""
-+read_vmoptions "$prg_dir/$progname.vmoptions"
-+INSTALL4J_ADD_VM_PARAMS="$INSTALL4J_ADD_VM_PARAMS $vmoptions_val"
-+
-+
-+LD_LIBRARY_PATH="$app_home/.install4j:$app_home/.install4j/user:$LD_LIBRARY_PATH"
-+DYLD_LIBRARY_PATH="$app_home/.install4j:$app_home/.install4j/user:$DYLD_LIBRARY_PATH"
-+SHLIB_PATH="$app_home/.install4j:$app_home/.install4j/user:$SHLIB_PATH"
-+LIBPATH="$app_home/.install4j:$app_home/.install4j/user:$LIBPATH"
-+LD_LIBRARYN32_PATH="$app_home/.install4j:$app_home/.install4j/user:$LD_LIBRARYN32_PATH"
-+LD_LIBRARYN64_PATH="$app_home/.install4j:$app_home/.install4j/user:$LD_LIBRARYN64_PATH"
-+export LD_LIBRARY_PATH
-+export DYLD_LIBRARY_PATH
-+export SHLIB_PATH
-+export LIBPATH
-+export LD_LIBRARYN32_PATH
-+export LD_LIBRARYN64_PATH
-+
-+INSTALL4J_ADD_VM_PARAMS="$INSTALL4J_ADD_VM_PARAMS -Di4j.vpt=true"
-+for param in $@; do
-+  if [ `echo "W$param" | cut -c -3` = "W-J" ]; then
-+    INSTALL4J_ADD_VM_PARAMS="$INSTALL4J_ADD_VM_PARAMS `echo "$param" | cut -c 3-`"
-+  fi
-+done
-+
-+
-+ui_last_wd=`pwd`
-+cd "$app_home"
-+if [ -d jre ]; then
-+  jsa_files=`find jre -name classes.jsa`
-+  for jsa_file in $jsa_files
-+  do
-+    chmod +w $jsa_file
-+    rm $jsa_file
-+  done
-+fi
-+cd "$ui_last_wd"
-+
-+if [ "W$vmov_1" = "W" ]; then
-+  vmov_1="-Di4jv=0"
-+fi
-+if [ "W$vmov_2" = "W" ]; then
-+  vmov_2="-Di4jv=0"
-+fi
-+if [ "W$vmov_3" = "W" ]; then
-+  vmov_3="-Di4jv=0"
-+fi
-+if [ "W$vmov_4" = "W" ]; then
-+  vmov_4="-Di4jv=0"
-+fi
-+if [ "W$vmov_5" = "W" ]; then
-+  vmov_5="-Di4jv=0"
-+fi
-+
-+return_code=0
-+$INSTALL4J_JAVA_PREFIX exec "$app_java_home/bin/java" -Dinstall4j.jvmDir="$app_java_home" -Dexe4j.moduleName="$prg_dir/$progname" "$vmov_1" "$vmov_2" "$vmov_3" "$vmov_4" "$vmov_5" $INSTALL4J_ADD_VM_PARAMS -classpath "$local_classpath" com.install4j.runtime.launcher.UnixLauncher launch 2bfa42ba "" "" com.install4j.runtime.installer.Uninstaller  "$@"
-+return_code=$?
-+
-+
-+exit $return_code
